@@ -1,0 +1,568 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676196078242863, "dur": 1022124, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676196078243122, "dur": 17646, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676196078260778, "dur": 47071, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676196078307892, "dur": 364465, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676196078672361, "dur": 585503, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676196079257867, "dur": 7119, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676196079266479, "dur": 28, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676196078483795, "dur": 164167, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676196078484738, "dur": 71778, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676196078624812, "dur": 5615, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676196078630438, "dur": 17502, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676196078631479, "dur": 15549, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676196078655771, "dur": 1225, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676196078654245, "dur": 2794, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676196079267006, "dur": 336, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676196078728504, "dur":2594, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196078731106, "dur":193, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676196078731322, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676196078731350, "dur":638, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676196078732027, "dur":673, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196078732700, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079210859, "dur":475, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211334, "dur":89, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211423, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211430, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211441, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211443, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211450, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211452, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211463, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211466, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211472, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211473, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211480, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211482, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211489, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211491, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211498, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211500, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211507, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211509, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211514, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211516, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211522, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211525, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211531, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211550, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079211568, "dur":17808, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676196078732825, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078732826, "dur":4976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078737836, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1676196078738018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078755542, "dur":8693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1676196078764302, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078764511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078766437, "dur":4790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078771282, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078771521, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078771547, "dur":12016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078783631, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078783895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078783916, "dur":12823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078796820, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078797077, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078797113, "dur":13051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078810342, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078810661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078810686, "dur":14714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078825459, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078825764, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078825788, "dur":7832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078833709, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078833960, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078833991, "dur":9450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078843613, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078843906, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078843932, "dur":13428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078857512, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078857681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196078857700, "dur":38447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196078896185, "dur":224385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196079120581, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676196079120607, "dur":3583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676196079124222, "dur":86645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078732609, "dur":136, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078732745, "dur":5095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078737842, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676196078738010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078740900, "dur":3872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676196078744820, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676196078744870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078745537, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1676196078748248, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676196078748291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078748372, "dur":3167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1676196078751610, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078751660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078752629, "dur":54268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078807427, "dur":888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078808326, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078808351, "dur":8954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078817357, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078817569, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078817591, "dur":17232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078834875, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078835171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078835191, "dur":12227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078847517, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078847770, "dur":51, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078847867, "dur":19465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078867371, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078867448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078867459, "dur":21606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078889184, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078889285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196078889355, "dur":15523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196078904917, "dur":151370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196079056295, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196079056315, "dur":11622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676196079068006, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1676196079068107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196079068123, "dur":7382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1676196079075890, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676196079076035, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676196079076066, "dur":8051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676196079084159, "dur":126702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078733042, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078733043, "dur":4830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078737875, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676196078738028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078790970, "dur":10718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676196078802764, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078803269, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078803314, "dur":21574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078824926, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078825219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078825236, "dur":22031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078847520, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078847800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078847848, "dur":17319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078865209, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078865452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078865475, "dur":12331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078877902, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078878064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078878084, "dur":12502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078890630, "dur":2494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078893154, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078893190, "dur":6092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078899343, "dur":3955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078903312, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078903336, "dur":5661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078909033, "dur":40113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078949160, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196078949183, "dur":4840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196078954070, "dur":68245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196079022324, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196079022345, "dur":6156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196079028547, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196079028590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196079028607, "dur":16181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196079044819, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196079044859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196079044872, "dur":3529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676196079048448, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676196079048496, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196079048521, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676196079050835, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676196079050883, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196079050912, "dur":8468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676196079059441, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676196079059497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196079059522, "dur":3947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676196079063509, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676196079063546, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676196079063566, "dur":23029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676196079086637, "dur":124247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196078732713, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196078732714, "dur":5072, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196078737837, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1676196078737847, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196078737984, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1676196078737997, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196078739123, "dur":5644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1676196078744780, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1676196078744841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196078746010, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1676196078748218, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1676196078748287, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196078748364, "dur":3155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1676196078751569, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676196078751642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196078752474, "dur":8610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676196078761130, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1676196078761187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196078762523, "dur":37239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1676196078799837, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676196078800069, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196078800097, "dur":14954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676196078815124, "dur":205485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676196079020629, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196079020663, "dur":4486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676196079025224, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676196079025345, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196079025390, "dur":14240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676196079039695, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676196079039898, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196079039926, "dur":8480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676196079048449, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1676196079048497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196079048521, "dur":4705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1676196079053286, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1676196079053334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196079053356, "dur":6077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1676196079059493, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1676196079059702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196079059714, "dur":7077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1676196079066836, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1676196079066895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196079066903, "dur":3713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1676196079070676, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1676196079070726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676196079070744, "dur":9097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1676196079079891, "dur":131175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078732790, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078732791, "dur":5026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078737837, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676196078737998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078741274, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676196078744861, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1676196078744886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078745547, "dur":3406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1676196078749008, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1676196078749143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078749164, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1676196078751177, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1676196078751229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078751255, "dur":4874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1676196078756276, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1676196078756363, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078756381, "dur":13573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1676196078770021, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078770328, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078770497, "dur":9529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078780128, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078780490, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078780520, "dur":11342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078792052, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078792528, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078792558, "dur":10534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078803163, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078803347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078803363, "dur":21103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078824518, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078824660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078824673, "dur":9288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078834008, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078834182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078834199, "dur":8514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078842793, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078842938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078842949, "dur":9363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078852460, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078852991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078853020, "dur":17508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078870624, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078871068, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078871119, "dur":18235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078889385, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078889547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196078889556, "dur":7463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196078897066, "dur":259828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196079156904, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676196079156921, "dur":2947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676196079159898, "dur":50893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078732888, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078732889, "dur":4922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078737838, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1676196078738138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078822078, "dur":5603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1676196078827831, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078828048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078828076, "dur":7008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078835154, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078835280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078835291, "dur":12839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078848260, "dur":1051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078849331, "dur":126, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078849481, "dur":17655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078867188, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078867365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078867388, "dur":7874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078875321, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078875708, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078875737, "dur":15637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078891423, "dur":54738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078946176, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078946197, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078949284, "dur":3660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078952958, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078952985, "dur":3430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078956449, "dur":2895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078959364, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078959391, "dur":11211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078970641, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078970679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078970694, "dur":7914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078978660, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196078978714, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196078978738, "dur":40452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196079019234, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196079019280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196079019295, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196079021934, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196079021976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196079021990, "dur":24308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676196079046332, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1676196079046706, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196079047739, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1676196079049880, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676196079049972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196079049988, "dur":5613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676196079065452, "dur":1182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676196079066641, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196079066657, "dur":3821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676196079070559, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676196079070614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676196079070635, "dur":9729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676196079080403, "dur":130438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676196078732939, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676196078732940, "dur":4879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676196078737838, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676196078738116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676196078794657, "dur":11435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676196078806249, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078806603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676196078806628, "dur":10662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078817343, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078817555, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676196078817582, "dur":16401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078834048, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078834175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676196078834188, "dur":8264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078842506, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078842721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676196078842741, "dur":22397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078865179, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078865464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676196078865479, "dur":11966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078877506, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078877683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676196078877707, "dur":13864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196078891614, "dur":203332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196079094961, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676196079094994, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676196079097912, "dur":112866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078732990, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078732991, "dur":4824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078737837, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1676196078737999, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078750578, "dur":10455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1676196078761125, "dur":2533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV.exe" }}
+,{ "pid":12345, "tid":8, "ts":1676196078763671, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078763694, "dur":19881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV.exe" }}
+,{ "pid":12345, "tid":8, "ts":1676196078783633, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078783878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078783902, "dur":23434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078807414, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078807682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078807708, "dur":12307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078820087, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078820487, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078820516, "dur":13427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078834001, "dur":1567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078835584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078835615, "dur":13813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078849479, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078849618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078849633, "dur":7311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078857003, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078857207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078857234, "dur":23214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078880990, "dur":745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078881758, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196078881787, "dur":9715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196078891552, "dur":158202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196079049762, "dur":104, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196079049884, "dur":27522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676196079077479, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1676196079077746, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676196079077785, "dur":4734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1676196079082562, "dur":128281, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196078733093, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196078733094, "dur":4860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196078737955, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1676196078738164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196078823844, "dur":5969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1676196078829927, "dur":897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078830847, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196078830885, "dur":11405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078842353, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078842591, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196078842618, "dur":7717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078850386, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078850577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196078850668, "dur":14444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078865165, "dur":601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078865774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196078865791, "dur":20523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078886382, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078886626, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196078886661, "dur":23727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078910580, "dur":6499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078917091, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196078917121, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078919695, "dur":2605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078922312, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196078922344, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196078924372, "dur":92292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196079016670, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196079016682, "dur":6412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196079023171, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196079023222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196079023243, "dur":4676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196079027967, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196079028017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196079028080, "dur":15974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196079044133, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196079044246, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196079044284, "dur":19189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676196079063506, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1676196079063546, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676196079063566, "dur":14820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1676196079078426, "dur":132360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676196078733147, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676196078733148, "dur":4652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676196078737837, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1676196078738002, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676196078750341, "dur":3672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1676196078754074, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676196078754152, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676196078754177, "dur":153652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676196078907907, "dur":121294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676196079029209, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676196079029228, "dur":19166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676196079048446, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1676196079048498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676196079049565, "dur":3922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1676196079053521, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1676196079053557, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676196079053571, "dur":14151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1676196079067842, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1676196079067928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676196079067952, "dur":12609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1676196079080643, "dur":130390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078733190, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078733191, "dur":4602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078737837, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1676196078738017, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078788028, "dur":4225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1676196078792379, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078792533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078792556, "dur":16679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078809342, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078809682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078809902, "dur":13713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078824278, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078824457, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078824476, "dur":25367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078850007, "dur":775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078850788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078850806, "dur":14299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078865154, "dur":952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078866113, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078866141, "dur":23935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078890118, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078890286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078890334, "dur":19224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078909590, "dur":82154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078991757, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078991781, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078993758, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196078993816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196078993829, "dur":7435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079001307, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079001350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196079001369, "dur":6443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079007881, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079007925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196079007950, "dur":3776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079011794, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079011850, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196079011877, "dur":4568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079016485, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079016528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196079016542, "dur":4872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079021449, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079021511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196079021524, "dur":19218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079040791, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079040835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196079040856, "dur":22486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1676196079063421, "dur":3173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1676196079066612, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196079066657, "dur":9353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1676196079076075, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1676196079076120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676196079076137, "dur":6324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1676196079082506, "dur":128515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078733248, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078733248, "dur":4560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078737836, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1676196078738011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078752636, "dur":10645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1676196078763374, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078763607, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078766399, "dur":5466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078771918, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078772050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078772068, "dur":9297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078782065, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078782665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078782698, "dur":14555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078797314, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078797418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078797431, "dur":16661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078814178, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078814407, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078814430, "dur":19606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078834098, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078834236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078834263, "dur":54743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078889056, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078889209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078889230, "dur":6755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078896085, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078896407, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078896437, "dur":9098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078905576, "dur":87761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078993352, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078993375, "dur":2450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078995862, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196078995905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196078995922, "dur":5356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196079001314, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196079001352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196079001368, "dur":14659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196079016102, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196079016180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196079016202, "dur":4794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196079021053, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196079021124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196079021141, "dur":25140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196079046332, "dur":161872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196079208214, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676196079208233, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/acer/Desktop/Export Unity Project/ForMyCV/test/ForMyCV_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676196079210718, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1676196079210724, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676196079243377, "dur":4047, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676196079267429, "dur": 6076, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676196079266433, "dur": 7164, "ph": "X", "name": "Write chrome-trace events", "args": {} },
